@@ -1,53 +1,61 @@
 import React from "react";
+import "./styles/Footer.css";
+import logo from "../assets/logo2.png";
 export default function Footer() {
   return (
     <footer>
-      <img src="#" id="foot--img" alt="" width="200px" height="300px" />
+      <img src={logo} id="foot--img" alt="" />
       <section id="foot--navCont">
         <nav>
-          <h2>Navigation</h2>
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>About</a>
-          </li>
-          <li>
-            <a>Menu</a>
-          </li>
-          <li>
-            <a>Reservations</a>
-          </li>
-          <li>
-            <a>Order Online</a>
-          </li>
-          <li>
-            <a>Login</a>
-          </li>
+          <ul>
+            <h2 className="foot--title">Navigation</h2>
+            <li>
+              <a className="footer--link">Home</a>
+            </li>
+            <li>
+              <a className="footer--link">About</a>
+            </li>
+            <li>
+              <a className="footer--link">Menu</a>
+            </li>
+            <li>
+              <a className="footer--link">Reservations</a>
+            </li>
+            <li>
+              <a className="footer--link">Order Online</a>
+            </li>
+            <li>
+              <a className="footer--link">Login</a>
+            </li>
+          </ul>
         </nav>
         <nav>
-          <h2>Contact</h2>
-          <li>
-            <a>Address</a>
-          </li>
-          <li>
-            <a>Phone Number</a>
-          </li>
-          <li>
-            <a>Email</a>
-          </li>
+          <ul>
+            <h2 className="foot--title">Contact</h2>
+            <li>
+              <a className="footer--link">Address</a>
+            </li>
+            <li>
+              <a className="footer--link">Phone Number</a>
+            </li>
+            <li>
+              <a className="footer--link">Email</a>
+            </li>
+          </ul>
         </nav>
         <nav>
-          <h2>Social Media</h2>
-          <li>
-            <a>Address</a>
-          </li>
-          <li>
-            <a>Phone Number</a>
-          </li>
-          <li>
-            <a>Email</a>
-          </li>
+          <ul>
+            <h2 className="foot--title">Social Media</h2>
+            <li>
+              <a className="footer--link">Address</a>
+            </li>
+            <li>
+              <a className="footer--link">Phone Number</a>
+            </li>
+            <li>
+              <a className="footer--link">Email</a>
+            </li>
+          </ul>
         </nav>
       </section>
     </footer>

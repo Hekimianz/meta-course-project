@@ -1,0 +1,234 @@
+#hero--cont {
+  height: 500px;
+  background-color: #495e57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #edefee;
+}
+
+.hero--img {
+  width: 376px;
+  height: 440px;
+  border-radius: 26px;
+  margin-left: 156px;
+  margin-top: 150px;
+}
+
+#hero--title {
+  font-family: "Markazi Text", serif;
+  font-weight: 500;
+  font-size: 64px;
+  color: #f4ce14;
+}
+
+#hero--subtitle {
+  font-family: "Markazi Text", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: -25px;
+  margin-bottom: 30px;
+}
+
+#hero--p {
+  width: 210px;
+  font-family: "Karla", serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#hero--btn {
+  border-radius: 16px;
+  border: none;
+  width: 200px;
+  height: 45px;
+  background-color: #f4ce14;
+  color: #333;
+  font-family: "Karla", serif;
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#spec--cont {
+  height: 788px;
+  background-color: #edefee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#spec--head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 845px;
+  font-family: "Markazi Text", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+#spec--cards {
+  display: flex;
+  gap: 45px;
+}
+
+#spec--btn {
+  border-radius: 16px;
+  border: none;
+  width: 200px;
+  height: 45px;
+  background-color: #f4ce14;
+  color: #333;
+  font-family: "Karla", serif;
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card--cont {
+  display: flex;
+  flex-direction: column;
+  background-color: #e4e4e4;
+  border-radius: 16px;
+  width: 252px;
+  height: 521px;
+  font-family: "Karla", serif;
+  margin-top: 60px;
+}
+
+.card--img {
+  width: 252px;
+  height: 213px;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  object-fit: cover;
+}
+
+.card--spans {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin: 20px 0;
+}
+
+.card--dish {
+  font-family: "Markazi Text", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card--price {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ee9972;
+}
+
+.card--desc {
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #495e57;
+  margin-bottom: 66px;
+}
+
+.card--cta {
+  padding: 0 10px;
+  font-family: "Markazi Text", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card--orderIcon {
+  margin-left: 10px;
+}
+
+#rev--cont {
+  height: 614px;
+  background-color: #f4ce14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.review--img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+#about--cont {
+  height: 481px;
+  background-color: #edefee;
+}
+
+.review--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #495e57;
+  border-radius: 8px;
+  width: 350px;
+  padding: 10px;
+  color: #edefee;
+  font-family: "Markazi Text", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  gap: 10px;
+}
+
+.review--card > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Karla", serif;
+  font-size: 16px;
+}
+
+#about--cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.about--info {
+  width: 350px;
+}
+
+.about--title {
+  font-family: "Markazi Text", serif;
+  font-weight: 500;
+  font-size: 64px;
+  color: #495e57;
+  margin-bottom: 20px;
+}
+
+.about--text {
+  width: 350px;
+  font-family: "Karla", serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #333;
+}
+
+.img2 {
+  width: 376px;
+  height: 440px;
+  object-fit: cover;
+  object-position: 80% 0%;
+  margin-left: 100px;
+  border-radius: 16px;
+}
